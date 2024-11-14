@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\stylo.css" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Web.config" />
@@ -101,7 +102,19 @@
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="include\cabecera.cshtml" />
     <Content Include="include\piepagina.cshtml" />
+    <Content Include="aspnetgrid.cshtml" />
+    <Content Include="imageRazor.cshtml" />
+    <Content Include="colores.cshtml" />
+    <Content Include="formcontrolbootstrap.cshtml" />
+    <Content Include="inutGroup.cshtml" />
+    <Content Include="accordionRazor.cshtml" />
     <None Include="packages.config" />
+    <Content Include="razortipografia.cshtml" />
+    <Content Include="razorTable.cshtml" />
+    <Content Include="razorForm.cshtml" />
+    <Content Include="razorSelect.cshtml" />
+    <Content Include="razorCheck.cshtml" />
+    <Content Include="rangoRazor.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
