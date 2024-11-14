@@ -90,6 +90,11 @@
   <ItemGroup>
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\stylo.css" />
+    <Content Include="images\20240117_130655.jpg" />
+    <Content Include="images\20240117_130700.jpg" />
+    <Content Include="images\20240117_130704.jpg" />
+    <Content Include="images\wfondo.jpg" />
+    <Content Include="js\aspnet.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Web.config" />
@@ -108,6 +113,14 @@
     <Content Include="formcontrolbootstrap.cshtml" />
     <Content Include="inutGroup.cshtml" />
     <Content Include="accordionRazor.cshtml" />
+    <Content Include="alertRazor.cshtml" />
+    <Content Include="alertLinkRazor.cshtml" />
+    <Content Include="badgeRazor.cshtml" />
+    <Content Include="fondoColoresRazor.cshtml" />
+    <Content Include="buttonRazor.cshtml" />
+    <Content Include="cardRazor.cshtml" />
+    <Content Include="collapseRazor.cshtml" />
+    <Content Include="modalRazor.cshtml" />
     <None Include="packages.config" />
     <Content Include="razortipografia.cshtml" />
     <Content Include="razorTable.cshtml" />
@@ -115,6 +128,11 @@
     <Content Include="razorSelect.cshtml" />
     <Content Include="razorCheck.cshtml" />
     <Content Include="rangoRazor.cshtml" />
+    <Content Include="razorgutter.cshtml" />
+    <Content Include="razorFloating.cshtml" />
+    <Content Include="plantilla.cshtml" />
+    <Content Include="razorTextArea.cshtml" />
+    <Content Include="razorLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -122,9 +140,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

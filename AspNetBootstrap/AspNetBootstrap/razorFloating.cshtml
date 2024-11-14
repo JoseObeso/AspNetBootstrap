@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<body>
+    @RenderPage("~/include/cabecera.cshtml")
+
+    <div class="container text-center">
+        <h2>Floating </h2>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="usuario@irtp.gob.pe">
+            <label for="floatingInput">Correo Electronico</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Clave</label>
+        </div>
+
+    </div>
+
+    <div class="container text-center">
+        <h2>Form Float </h2>
+        <form class="form-floating">
+            <input type="email" class="form-control" id="floatingInputValue" placeholder="usuario@irtp.gob.pe" value="usuario@irtp.gob.pe">
+            <label for="floatingInputValue">Ingrese Correo</label>
+        </form>
+
+    </div>
+
+
+
+   
+
+
+
+
+    @RenderPage("~/include/piepagina.cshtml")
+
+</body>
+</html>
+

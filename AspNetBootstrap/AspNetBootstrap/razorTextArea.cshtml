@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html>
+<body>
+    @RenderPage("~/include/cabecera.cshtml")
+
+    <div class="container text-center">
+        <h2> Ejemplo de Flotantes </h2>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Registre su comentario aqui..." id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentarios y/o Observaciones</label>
+        </div>
+
+        <div class="form-floating">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>Seleccione</option>
+                <option value="1">Sistema</option>
+                <option value="2">Convenio</option>
+                <option value="3">Seguimientos</option>
+            </select>
+            <label for="floatingSelect">Escoja lo indicado</label>
+        </div>
+
+
+        <h2> Controles  desabilitados</h2>
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+            <label for="floatingInputDisabled">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled"></textarea>
+            <label for="floatingTextareaDisabled">Comentarios Desabilitados</label>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled>Disabled textarea with some text inside</textarea>
+            <label for="floatingTextarea2Disabled">Comments</label>
+        </div>
+        <div class="form-floating">
+            <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <label for="floatingSelectDisabled">Works with selects</label>
+        </div>
+
+        <h2>Input Grupos</h2>
+
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">@@</span>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                <label for="floatingInputGroup1">Username</label>
+            </div>
+        </div>
+
+
+
+        <h2>Diseño  Layout</h2>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                    <label for="floatingInputGrid">Email address</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelectGrid">Works with selects</label>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    
+
+
+    @RenderPage("~/include/piepagina.cshtml")
+
+</body>
+</html>
+
